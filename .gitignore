@@ -1,0 +1,13 @@
+# Ignore everything in repository root
+/*
+
+.idea
+
+# Files to not ignore
+!/.gitignore
+!/package.json
+!/package-lock.json
+!/javascript-obfuscator.config.json
+
+# Folder to not ignore
+!/src/
