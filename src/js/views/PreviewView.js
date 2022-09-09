@@ -1,3 +1,5 @@
+'use strict';
+
 import icons from "../../img/icons.svg";
 
 import View from "./View";

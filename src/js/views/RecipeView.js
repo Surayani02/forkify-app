@@ -1,3 +1,5 @@
+'use strict';
+
 import {Fraction} from 'fractional';
 
 import icons from "../../img/icons.svg";

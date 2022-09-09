@@ -1,3 +1,5 @@
+'use strict';
+
 class SearchView {
     _parentElement = document.querySelector('.search');
 

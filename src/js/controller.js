@@ -1,6 +1,8 @@
 // import "core-js";
 // import 'regenerator-runtime/runtime';
 
+'use strict';
+
 import * as model from './model';
 import recipeView from './views/RecipeView';
 import searchView from './views/SearchView';
