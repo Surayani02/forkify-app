@@ -8,6 +8,7 @@
 !/package.json
 !/package-lock.json
 !/javascript-obfuscator.config.json
+!/README.md
 
 # Folder to not ignore
 !/src/
