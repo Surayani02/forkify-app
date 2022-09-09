@@ -1,62 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
   <link
-          href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
-          rel="stylesheet"
+    href='https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700'
+    rel='stylesheet'
   />
-  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>
+  <link rel='shortcut icon' href='./img/favicon.png' type='image/x-icon' />
 
-  <link rel="stylesheet" href="./sass/main.scss"/>
-  <script defer src="./js/controller.js" type="module"></script>
+  <link rel='stylesheet' href='./sass/main.scss' />
+  <script defer src='./js/controller.js' type='module'></script>
 
   <title>forkify || Search over 1,000,000 recipes</title>
 </head>
 
 <body>
-<div class="container">
-  <header class="header">
-    <img src="./img/logo.png" alt="Logo" class="header__logo"/>
-    <form class="search">
+<div class='container'>
+  <header class='header'>
+    <img src='./img/logo.png' alt='Logo' class='header__logo' />
+    <form class='search'>
       <input
-              type="text"
-              class="search__field"
-              placeholder="Search over 1,000,000 recipes..."
+        type='text'
+        class='search__field'
+        placeholder='Search over 1,000,000 recipes...'
       />
-      <button class="btn search__btn">
-        <svg class="search__icon">
-          <use href="./img/icons.svg#icon-search"></use>
+      <button class='btn search__btn'>
+        <svg class='search__icon'>
+          <use href='./img/icons.svg#icon-search'></use>
         </svg>
         <span>Search</span>
       </button>
     </form>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-          <button class="nav__btn nav__btn--add-recipe">
-            <svg class="nav__icon">
-              <use href="./img/icons.svg#icon-edit"></use>
+    <nav class='nav'>
+      <ul class='nav__list'>
+        <li class='nav__item'>
+          <button class='nav__btn nav__btn--add-recipe'>
+            <svg class='nav__icon'>
+              <use href='./img/icons.svg#icon-edit'></use>
             </svg>
             <span>Add recipe</span>
           </button>
         </li>
-        <li class="nav__item">
-          <button class="nav__btn nav__btn--bookmarks">
-            <svg class="nav__icon">
-              <use href="./img/icons.svg#icon-bookmark"></use>
+        <li class='nav__item'>
+          <button class='nav__btn nav__btn--bookmarks'>
+            <svg class='nav__icon'>
+              <use href='./img/icons.svg#icon-bookmark'></use>
             </svg>
             <span>Bookmarks</span>
           </button>
-          <div class="bookmarks">
-            <ul class="bookmarks__list">
-              <div class="message">
+          <div class='bookmarks'>
+            <ul class='bookmarks__list'>
+              <div class='message'>
                 <div>
                   <svg>
-                    <use href="./img/icons.svg#icon-alert-triangle"></use>
+                    <use href='./img/icons.svg#icon-alert-triangle'></use>
                   </svg>
                 </div>
                 <p>
@@ -84,8 +84,8 @@
     </nav>
   </header>
 
-  <div class="search-results">
-    <ul class="results">
+  <div class='search-results'>
+    <ul class='results'>
       <!--
       <li class="preview">
         <a class="preview__link preview__link--active" href="#23456">
@@ -106,7 +106,7 @@
        -->
     </ul>
 
-    <div class="pagination">
+    <div class='pagination'>
       <!-- <button class="btn--inline pagination__btn--prev">
         <svg class="search__icon">
           <use href="./img/icons.svg#icon-arrow-left"></use>
@@ -133,11 +133,11 @@
     </p>-->
   </div>
 
-  <div class="recipe">
-    <div class="message">
+  <div class='recipe'>
+    <div class='message'>
       <div>
         <svg>
-          <use href="./img/icons.svg#icon-smile"></use>
+          <use href='./img/icons.svg#icon-smile'></use>
         </svg>
       </div>
       <p>Start by searching for a recipe or an ingredient. Have fun!</p>
@@ -256,76 +256,76 @@
   </div>
 </div>
 
-<div class="overlay hidden"></div>
-<div class="add-recipe-window hidden">
-  <button class="btn--close-modal">&times;</button>
-  <form class="upload">
-    <div class="upload__column">
-      <h3 class="upload__heading">Recipe data</h3>
-      <label for="title">Title</label>
-      <input id="title" required name="title" type="text"/>
-      <label for="url">URL</label>
-      <input id="url" required name="sourceUrl" type="text"/>
-      <label for="image-url">Image URL</label>
-      <input id="image-url" required name="image" type="text"/>
-      <label for="publisher">Publisher</label>
-      <input id="publisher" required name="publisher" type="text"/>
-      <label for="preparation-time">Prep time</label>
-      <input id="preparation-time" required name="cookingTime" type="number"/>
-      <label for="servings">Servings</label>
-      <input id="servings" required name="servings" type="number"/>
+<div class='overlay hidden'></div>
+<div class='add-recipe-window hidden'>
+  <button class='btn--close-modal'>&times;</button>
+  <form class='upload'>
+    <div class='upload__column'>
+      <h3 class='upload__heading'>Recipe data</h3>
+      <label for='title'>Title</label>
+      <input id='title' required name='title' type='text' />
+      <label for='url'>URL</label>
+      <input id='url' required name='sourceUrl' type='text' />
+      <label for='image-url'>Image URL</label>
+      <input id='image-url' required name='image' type='text' />
+      <label for='publisher'>Publisher</label>
+      <input id='publisher' required name='publisher' type='text' />
+      <label for='preparation-time'>Prep time</label>
+      <input id='preparation-time' required name='cookingTime' type='number' />
+      <label for='servings'>Servings</label>
+      <input id='servings' required name='servings' type='number' />
     </div>
 
-    <div class="upload__column">
-      <h3 class="upload__heading">Ingredients</h3>
-      <label for="ingredient-1">Ingredient 1</label>
+    <div class='upload__column'>
+      <h3 class='upload__heading'>Ingredients</h3>
+      <label for='ingredient-1'>Ingredient 1</label>
       <input
-              type="text"
-              id="ingredient-1"
-              required
-              name="ingredient-1"
-              placeholder="Format: 'Quantity,Unit,Description'"
+        type='text'
+        id='ingredient-1'
+        required
+        name='ingredient-1'
+        placeholder="Format: 'Quantity,Unit,Description'"
       />
-      <label for="ingredient-2">Ingredient 2</label>
+      <label for='ingredient-2'>Ingredient 2</label>
       <input
-              type="text"
-              id="ingredient-2"
-              name="ingredient-2"
-              placeholder="Format: 'Quantity,Unit,Description'"
+        type='text'
+        id='ingredient-2'
+        name='ingredient-2'
+        placeholder="Format: 'Quantity,Unit,Description'"
       />
-      <label for="ingredient-3">Ingredient 3</label>
+      <label for='ingredient-3'>Ingredient 3</label>
       <input
-              type="text"
-              id="ingredient-3"
-              name="ingredient-3"
-              placeholder="Format: 'Quantity,Unit,Description'"
+        type='text'
+        id='ingredient-3'
+        name='ingredient-3'
+        placeholder="Format: 'Quantity,Unit,Description'"
       />
-      <label for="ingredient-4">Ingredient 4</label>
+      <label for='ingredient-4'>Ingredient 4</label>
       <input
-              type="text"
-              id="ingredient-4"
-              name="ingredient-4"
-              placeholder="Format: 'Quantity,Unit,Description'"
+        type='text'
+        id='ingredient-4'
+        name='ingredient-4'
+        placeholder="Format: 'Quantity,Unit,Description'"
       />
-      <label for="ingredient-5">Ingredient 5</label>
+      <label for='ingredient-5'>Ingredient 5</label>
       <input
-              type="text"
-              id="ingredient-5"
-              name="ingredient-5"
-              placeholder="Format: 'Quantity,Unit,Description'"
+        type='text'
+        id='ingredient-5'
+        name='ingredient-5'
+        placeholder="Format: 'Quantity,Unit,Description'"
       />
-      <label for="ingredient-6">Ingredient 6</label>
+      <label for='ingredient-6'>Ingredient 6</label>
       <input
-              type="text"
-              id="ingredient-6"
-              name="ingredient-6"
-              placeholder="Format: 'Quantity,Unit,Description'"
+        type='text'
+        id='ingredient-6'
+        name='ingredient-6'
+        placeholder="Format: 'Quantity,Unit,Description'"
       />
     </div>
 
-    <button class="btn upload__btn">
+    <button class='btn upload__btn'>
       <svg>
-        <use href="./img/icons.svg#icon-upload-cloud"></use>
+        <use href='./img/icons.svg#icon-upload-cloud'></use>
       </svg>
       <span>Upload</span>
     </button>

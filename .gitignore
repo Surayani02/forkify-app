@@ -9,6 +9,7 @@
 !/package-lock.json
 !/javascript-obfuscator.config.json
 !/README.md
+!/.prettierrc
 
 # Folder to not ignore
 !/src/
