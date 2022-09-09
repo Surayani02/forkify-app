@@ -1,5 +1,5 @@
-import 'core-js/stage';
-import 'regenerator-runtime/runtime';
+// import "core-js";
+// import 'regenerator-runtime/runtime';
 
 import * as model from './model';
 import recipeView from './views/RecipeView';
